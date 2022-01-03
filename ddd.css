@@ -1,0 +1,60 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(sky.jpg.jpg) ;
+    background-size: 120%;
+    background-position: middle ;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    text-align: match-parent;
+    font-family: 'Arial Narrow Bold';
+}
+.menu_bar
+{
+   background: rgb(6, 137, 245) ;
+    text-align: center;
+}
+.menu_bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+.menu_bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 10px;
+}
+.menu_bar ul li a
+{
+    text-decoration: none;
+    color: #fff
+}
+.active, .menu_bar ul li:hover
+{
+    background: rgb(39, 120, 187);
+    background radius: 3px;
+}
+."sub-menu-1"
+{
+display: none;
+}
+.menu_bar ul li:hover, ."sub-menu-1" ul
+{
+    display: block;
+    position: absolute;
+    background:rgb(39, 120, 187);
+    margin-top: 15px;
+    margin-left:15px;
+}
+.menu_bar ul li:hover, ."sub-menu-1" ul
+{
+    display: block;
+    margin: 15px;
+}
